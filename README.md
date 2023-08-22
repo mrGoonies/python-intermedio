@@ -1,6 +1,6 @@
 # Información Repositorio
 
-Encontrarás información sobre Python, especificamente sobre el curso de Platzi llamado **Python: Comprehension, Funciones y Manejo de errores**.
+Encontrarás información sobre Python con conceptos que te ayudarán a dar un salto como desarrollador Python y sobretodo en pruebas de conceptos sobre este lenguaje.
 
 Conoceremos conceptos como:
 
