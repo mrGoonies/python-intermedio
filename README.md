@@ -77,3 +77,9 @@ Ya que sabes que existen los conjuntos y lo más importante, tenemos una nueva h
 - **Diccionario**: Cuando necesites almacenar elementos únicos pero asociándolos a una llave.
 
 - **Tupla**: Cuando necesites almacenar elementos y estos no necesiten ser únicos pero no quieras que estos sean modificados.
+
+
+## Comprehension
+Es una forma práctica y simple de crear estructuras de datos como listas o diccionarios.
+
+Es altamente recomendado utilizar este tipo de característica que nos entrega Python, ya que nos permite escribir menos código y hacerlo de una manera más legible, además cumplimos con el **zen** principios de Python.
