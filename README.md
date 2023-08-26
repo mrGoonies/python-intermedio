@@ -83,3 +83,11 @@ Ya que sabes que existen los conjuntos y lo más importante, tenemos una nueva h
 Es una forma práctica y simple de crear estructuras de datos como listas o diccionarios.
 
 Es altamente recomendado utilizar este tipo de característica que nos entrega Python, ya que nos permite escribir menos código y hacerlo de una manera más legible, además cumplimos con el **zen** principios de Python.
+
+## Funciones
+Las funciones permiten modularizar nuestro código o en palabras más simples, reutilizar funcionalidades específicas en distintas partes de nuestro código. Es recomendable entender que las funciones deben ser pequeñas y realizar una sola tarea, esto nos permitirá tener un código más limpio y fácil de mantener.
+
+### Tips
+
+1. Si quieres almacenar un valor que fué generado dentro de una función, debes retornarlo y asignarlo a una variable.
+
