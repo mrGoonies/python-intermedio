@@ -85,9 +85,24 @@ Es una forma práctica y simple de crear estructuras de datos como listas o dicc
 Es altamente recomendado utilizar este tipo de característica que nos entrega Python, ya que nos permite escribir menos código y hacerlo de una manera más legible, además cumplimos con el **zen** principios de Python.
 
 ## Funciones
-Las funciones permiten modularizar nuestro código o en palabras más simples, reutilizar funcionalidades específicas en distintas partes de nuestro código. Es recomendable entender que las funciones deben ser pequeñas y realizar una sola tarea, esto nos permitirá tener un código más limpio y fácil de mantener.
+Las funciones permiten modularizar nuestro código o en palabras más simples, reutilizar funcionalidades específicas en distintas partes de nuestro código. Es recomendable entender que las funciones deben ser pequeñas y realizar una sola tarea, esto nos permitirá tener un código más limpio y fácil de mantener. En Python podemos asignar valores por defecto a los argumentos de una función, esto nos permite evitar errores, aunque siempre será mejor manejar los errores de manera elegante por medio de un **try/except**. Siempre que queramos varios valores de una funcion, estos valores sera retornados en una tupla, por lo que debemos asignarlos a una variable para poder acceder a ellos.
+
+### Scope
+El scope o ámbito de una variable es el alcance que tiene esta dentro de nuestro código, es decir, en que partes de nuestro código podemos acceder a esta variable. En Python existen dos tipos de scope:
+
+1. **Global**: Las variables globales son aquellas que se pueden acceder desde cualquier parte de nuestro código, es decir, que su alcance es global.
+
+2. **Local**: Las variables locales son aquellas que se pueden acceder sólo desde una parte específica de nuestro código, es decir, que su alcance es local.
+
+
+### Funciones anonimas
 
 ### Tips
 
 1. Si quieres almacenar un valor que fué generado dentro de una función, debes retornarlo y asignarlo a una variable.
+
+2. Agregar valores a los argumentos de una función es una mala práctica, ya que puede generar efectos secundarios.
+
+3. Es buena practica que las variables globales sean constantes, es decir, que no cambien su valor. Y si queremos modificar variables globales, debemos hacerlo por medio de una función.
+
 
