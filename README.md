@@ -98,7 +98,7 @@ El scope o ámbito de una variable es el alcance que tiene esta dentro de nuestr
 ### lambda functions
 Las funciones lambda son funciones anónimas, es decir, que no tienen un nombre y se utilizan para realizar una tarea muy específica. Estas funciones son muy útiles cuando necesitamos pasar una función como argumento a otra función, por ejemplo, cuando queremos ordenar una lista por medio de un criterio específico.
 
-### Tips
+## Tips
 
 1. Si quieres almacenar un valor que fué generado dentro de una función, debes retornarlo y asignarlo a una variable.
 
