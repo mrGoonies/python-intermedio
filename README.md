@@ -98,6 +98,22 @@ El scope o ámbito de una variable es el alcance que tiene esta dentro de nuestr
 ### lambda functions
 Las funciones lambda son funciones anónimas, es decir, que no tienen un nombre y se utilizan para realizar una tarea muy específica. Estas funciones son muy útiles cuando necesitamos pasar una función como argumento a otra función, por ejemplo, cuando queremos ordenar una lista por medio de un criterio específico.
 
+### High order functions (HOF)
+Las funciones de orden superior son aquellas que reciben como argumento a otra función o que retornan una función como resultado. Esto permite que nuestro código sea más declarativo y expresivo, además de permitirnos reutilizar código. Los principales beneficios son:
+
+1. **Facilitan la lectura del código**.
+2. **Utilizamos un paradigma declarativo** en vez de un paradigma imperativo. Nos centramos en decirle a la computadora que hacer en vez de centrarnos en como hacerlo.
+3. **Reducción de código repetido**. Creamos una función de orden superior que recibe como argumento una función y esta función se encarga de ejecutar la función que recibe como argumento. Podemos ver a una función de orden superior como un validador de funciones.
+
+Es importante (como todo en la programación) no abusar de las funciones de orden superior, ya que esto puede generar un código difícil de leer y mantener.
+
+**¿Cuáles son los mejores casos para implementar este tipo de funciones?**
+1. Filtrado de datos.
+2. Transformaación de datos.
+3. Operaciones de reducción.
+4. Callbacks y eventos.
+5. Implementación de patrones de diseño como *Observe* o *Strategy*
+6. Operaciones en listas.
 ## Tips
 
 1. Si quieres almacenar un valor que fué generado dentro de una función, debes retornarlo y asignarlo a una variable.
