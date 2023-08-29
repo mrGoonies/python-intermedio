@@ -95,7 +95,7 @@ El scope o ámbito de una variable es el alcance que tiene esta dentro de nuestr
 2. **Local**: Las variables locales son aquellas que se pueden acceder sólo desde una parte específica de nuestro código, es decir, que su alcance es local.
 
 
-### lamda
+### lambda functions
 Las funciones lambda son funciones anónimas, es decir, que no tienen un nombre y se utilizan para realizar una tarea muy específica. Estas funciones son muy útiles cuando necesitamos pasar una función como argumento a otra función, por ejemplo, cuando queremos ordenar una lista por medio de un criterio específico.
 
 ### Tips
